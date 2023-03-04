@@ -1,6 +1,7 @@
 html, body, div{
+  height: 100%;
+  width: 100%;
   margin: 0;
-  border: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -8,4 +9,9 @@ html, body, div{
 body{
   font-family: sans-serif;
   background-color: #D7DBDD;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
 }
