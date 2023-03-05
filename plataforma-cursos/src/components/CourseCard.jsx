@@ -14,12 +14,12 @@ function CourseCard({ imageUrl, name, category, description, duration }){
     );
 }
 
-CourseCard.PropTypes = {
+CourseCard.propTypes = {
     name: PropTypes.string.isRequired ,
     category: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    duration: PropTypes.string.isRequired,
-    imageUrl: PropTypes.number.isRequired
+    duration: PropTypes.number.isRequired,
+    imageUrl: PropTypes.string.isRequired
 };
 
 export default CourseCard;
