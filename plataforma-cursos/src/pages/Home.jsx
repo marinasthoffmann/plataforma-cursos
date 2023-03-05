@@ -1,4 +1,6 @@
 import CoursesList from "../components/CourseList";
+import CourseFilter from "../components/CourseFilter";
+import "./Home.css";
 
 const coursesList = [
   {
@@ -38,6 +40,7 @@ const coursesList = [
 function Home() {
   return (
     <div className="Home">
+        <CourseFilter />
         <CoursesList list={coursesList}/>
     </div>
   );
