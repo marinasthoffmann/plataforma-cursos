@@ -9,9 +9,21 @@ html, body, div{
 body{
   font-family: sans-serif;
   background-color: #D7DBDD;
+  min-height: 100vh;
 }
 
 #root {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+}
+
+#PageContainer{
+  flex-grow: 1;
+  padding: 56px 64px;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
 }
